@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class AppComponent {
   title = 'pipes reactive';
-  yuan: number = 7.90;
-  won: number = 0.042;
-  riyal: number = 14.70;
+  Fruits = ['Apple', ' Orange', ' Grapes', ' Mango', ' Kiwi', ' Pear'];
+  decimalNum1: number = 8.7589623;
+  decimalNum2: number = 5.43;
 }

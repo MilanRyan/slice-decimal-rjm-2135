@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Currency Pipe</title>
+    <title>Date Pipe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <h1></h1>
-    <div>
-      <h1 class="title">Currency Pipe</h1>
-      <div class="card">
-      <div class="p">
-        <h1>Chinese Yuan</h1>
-          In China, one yuan is equal to : {{ yuan | currency: 'PHP' }}
-        </div>
-      </div>
-      <div class="card">
-        <div class="p">
-          <h1>Korean Won </h1>
-          In Korea, one yuan is equal to : {{ won | currency: 'PHP' }}
-        </div>
-      </div>
-      <div class="card">
-        <div class="p">
-          <h1>Saudi Riyal</h1>
-          Saudi, one riyal is equal to : {{ riyal | currency: 'PHP' }}
-        </div>
-      </div>
+    <div class="slice">
+      <section class="main">
+        <h3 style="text-align: center">Slice Pipe</h3>
+        <p>Start index:- {{ Fruits | slice: 2 }}</p>
+        <br />
+        <p>Start and End index:- {{ Fruits | slice: 1:4 }}</p>
+        <br />
+        <p>Negative index:- {{ Fruits | slice: -2 }}</p>
+        <br />
+        <p>Negative start and End index:- {{ Fruits | slice: -4:-2 }}</p>
+      </section>
+    </div>
+    <div class="decimal" style="text-align: center">
+      <h3>
+        Decimal Pipe
+        <p>{{ decimalNum1 | number }}</p>
+        <p>{{ decimalNum2 | number }}</p>
+      </h3>
     </div>
   </body>
 </html>

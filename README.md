@@ -1,3 +1,3 @@
-# slice-decimal-rjm-2135
+# slice-decimal-pipe-amg-2135-pb6cbw
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/currency-pipe-rjm-2135-hfbsgf)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/date-pipe-amg-2135-pb6cbw-zvvg1z)

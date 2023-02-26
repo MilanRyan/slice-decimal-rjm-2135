@@ -8,24 +8,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(https://stackblitz.com/files/currency-pipe-rjm-2135-xzqmff/github/MilanRyan/currency2-pipe-rjm-2135/main/hand-drawn-abstract-background-free-vector.jpg);
+  background-image: url(https://stackblitz.com/files/slice-decimal-2135-rjm/github/MilanRyan/slice-decimal-rjm-2135/main/hand-drawn-abstract-background-free-vector.jpg);
   padding: 30px;
   width: 100%;
-  box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.12);
 }
 
-.card {
-  background-image: url();
-  width: 350px;
-  height: 100px;
-  padding: 5px;
-  background-color:pink;
-}
-.p {
+.decimal,
+.slice {
+  width: 700px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: rgba(124, 14, 14, 0.1);
+  margin-right: 20px;
   color: black;
-  text-align: center;
-}
-.title {
-  text-align: center;
-  padding-bottom: 20px;
+  font-size: 25px;
+  font-family: 'Staatliches', cursive;
 }
