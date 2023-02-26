@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Currency Pipe</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1></h1>
+    <div>
+      <h1 class="title">Currency Pipe</h1>
+      <div class="card">
+      <div class="p">
+        <h1>Chinese Yuan</h1>
+          In China, one yuan is equal to : {{ yuan | currency: 'PHP' }}
+        </div>
+      </div>
+      <div class="card">
+        <div class="p">
+          <h1>Korean Won </h1>
+          In Korea, one yuan is equal to : {{ won | currency: 'PHP' }}
+        </div>
+      </div>
+      <div class="card">
+        <div class="p">
+          <h1>Saudi Riyal</h1>
+          Saudi, one riyal is equal to : {{ riyal | currency: 'PHP' }}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
